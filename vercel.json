@@ -4,7 +4,7 @@
   "outputDirectory": "dist",
   "headers": [
     {
-      "source": "/engine/(.*)",
+      "source": "/engine/(.*).wasm",
       "headers": [
         { "key": "Content-Type", "value": "application/wasm" }
       ]
